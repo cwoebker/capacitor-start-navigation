@@ -1,4 +1,4 @@
-# capacitor-start-navigation [![npm version](https://badge.fury.io/js/%40proteansoftware%2Fcapacitor-start-navigation.svg)](https://badge.fury.io/js/%40proteansoftware%2Fcapacitor-start-navigation)
+# capacitor-start-navigation [![npm version](https://badge.fury.io/js/capacitor-start-navigation.svg)](https://badge.fury.io/js/capacitor-start-navigation)
 
 Capacitor plugin that allows your app to start native navigation
 
@@ -67,7 +67,7 @@ Opens the native maps applications with directions started
 ## Usage
 
 ```ts
-import { StartNavigation } from "@proteansoftware/capacitor-start-navigation";
+import { StartNavigation } from "capacitor-start-navigation";
 
 //
 // launches native maps with directions to Warwick, UK
@@ -106,7 +106,7 @@ On Android only 'driving', 'walking', 'bicycling' are available.
 - `cd my-cap-app`
 - `mkdir www && touch www/index.html`
 - `npx cap add ios`
-- `npm install --save @proteansoftware/capacitor-start-navigation`
+- `npm install --save capacitor-start-navigation`
 - `npx cap sync ios` _(always do sync after a plugin install)_
 - `npx cap open ios`
 
@@ -116,7 +116,7 @@ On Android only 'driving', 'walking', 'bicycling' are available.
 - `cd my-cap-app`
 - `mkdir www && touch www/index.html`
 - `npx cap add android`
-- `npm install --save @proteansoftware/capacitor-start-navigation`
+- `npm install --save capacitor-start-navigation`
 - `npx cap sync android` _(always do sync after a plugin install)_
 - `npx cap open android`
 
