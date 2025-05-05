@@ -59,7 +59,7 @@ public class StartNavigationPlugin extends Plugin {
                 } else {
                     query += "&q=";
                 }
-                query +=  addressQuery.substring(0, addressQuery.length() - 1);
+                query += addressQuery.substring(0, addressQuery.length() - 1);
             }
         }
 

@@ -11,15 +11,15 @@ import MapKit
 @objc(StartNavigationPlugin)
 public class StartNavigationPlugin: CAPPlugin {
     @objc func launchMapsApp(_ call: CAPPluginCall) {
-        let mode = call.getString("travelMode", "driving");
-        var options = [MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeDriving];
-              
+        let mode = call.getString("travelMode", "driving")
+        var options = [MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeDriving]
+
         if mode == "walking" {
-          options = [MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeWalking];
+            options = [MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeWalking]
         }
-          
+
         if mode == "transit" {
-          options = [MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeTransit];
+            options = [MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeTransit]
         }
 
         if let jsAddress = call.getObject("address") {

@@ -63,7 +63,7 @@ Opens the native maps applications with directions started
 
 #### TravelMode
 
-<code>'driving' | 'walking' | 'transit' | 'bicycling'</code>
+<code>"driving" | "walking" | "transit" | "bicycling"</code>
 
 </docgen-api>
 ## Usage
