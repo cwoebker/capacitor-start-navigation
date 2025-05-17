@@ -1,6 +1,6 @@
 {
-  "name": "capacitor-start-navigation",
-  "version": "6.0.0",
+  "name": "@cwoebker/capacitor-start-navigation",
+  "version": "6.0.2",
   "description": "Starts navigation in the native maps application",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -20,7 +20,7 @@
     "watch": "tsc --watch",
     "prepublishOnly": "npm run build"
   },
-  "author": "Ashley Medway",
+  "author": "Cecil Wöbker",
   "license": "MIT",
   "peerDependencies": {
     "@capacitor/core": "^6.0.0"
@@ -61,7 +61,7 @@
     "dist/",
     "ios/",
     "android/",
-    "CapacitorStartNavigation.podspec"
+    "CwoebkerCapacitorStartNavigation.podspec"
   ],
   "keywords": [
     "capacitor",
@@ -78,9 +78,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AshleyMedway/capacitor-start-navigation"
+    "url": "git+https://github.com/cwoebker/capacitor-start-navigation.git"
   },
   "bugs": {
-    "url": "https://github.com/AshleyMedway/capacitor-start-navigation/issues"
-  }
+    "url": "https://github.com/cwoebker/capacitor-start-navigation/issues"
+  },
+  "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72"
 }

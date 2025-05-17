@@ -1,12 +1,12 @@
 
   Pod::Spec.new do |s|
-    s.name = 'CapacitorStartNavigation'
+    s.name = 'CwoebkerCapacitorStartNavigation'
     s.version = '0.0.1'
     s.summary = 'Starts navigation in the native maps application'
     s.license = 'MIT'
-    s.homepage = 'https://github.com/AshleyMedway/capacitor-start-navigation'
-    s.author = 'Ashley Medway'
-    s.source = { :git => 'https://github.com/AshleyMedway/capacitor-start-navigation', :tag => s.version.to_s }
+    s.homepage = 'https://github.com/cwoebker/capacitor-start-navigation'
+    s.author = 'Cecil Wöbker'
+    s.source = { :git => 'https://github.com/cwoebker/capacitor-start-navigation', :tag => s.version.to_s }
     s.source_files = 'ios/Plugin/**/*.{swift,h,m,c,cc,mm,cpp}'
     s.ios.deployment_target  = '13.0'
     s.dependency 'Capacitor'
