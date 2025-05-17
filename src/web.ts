@@ -4,14 +4,11 @@ import type { StartNavigationOptions, StartNavigationPlugin } from "./definition
 
 export class StartNavigationPluginWeb extends WebPlugin implements StartNavigationPlugin {
   constructor() {
-    super({
-      name: "StartNavigationPlugin",
-      platforms: ["web"],
-    });
+    super();
   }
 
   async launchMapsApp(options: StartNavigationOptions): Promise<void> {
-    const travelMode = options.travelMode || 'driving';
+    const travelMode = options.travelMode || "driving";
     let addressQuery = null;
     if (options.address) {
       if (options.address.street != null) {
@@ -47,7 +44,7 @@ export class StartNavigationPluginWeb extends WebPlugin implements StartNavigati
 
     window.open(
       `https://www.google.com/maps/dir/?api=1&destination=${addressQuery}&travelmode=${travelMode}`,
-      "_blank"
+      "_blank",
     );
   }
 }

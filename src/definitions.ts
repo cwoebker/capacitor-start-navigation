@@ -32,10 +32,10 @@ export interface StartNavigationOptions {
    * On iOS only 'driving', 'walking' & 'transit' are available
    * On Android only 'driving', 'walking', 'bicycling' are available
    */
-  travelMode?: TravelMode
+  travelMode?: TravelMode;
 }
 
-export type TravelMode = 'driving' | 'walking' | 'transit' | 'bicycling';
+export type TravelMode = "driving" | "walking" | "transit" | "bicycling";
 
 export interface StartNavigationPlugin {
   /**
